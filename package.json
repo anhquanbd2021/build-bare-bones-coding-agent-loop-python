@@ -1,0 +1,16 @@
+{
+  "name": "agent-loop-under-glass-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Agent loop under glass — a toy loop simulator: prompt, model turn, tool dispatch, observation, steering queue, session log. Not a real agent.",
+  "scripts": {
+    "start": "node app/server.js",
+    "report": "node scripts/report.mjs",
+    "test": "node --test \"test/*.test.mjs\"",
+    "check": "npm test && npm run report"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
